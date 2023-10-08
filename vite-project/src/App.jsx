@@ -14,7 +14,7 @@ function App() {
         alt="16"
         className="h-100"
         />
-        <h1 className="text-3xl text-blue-900">MindMatch</h1>
+        <h1 className="text-3xl text-blue-300">MindMatch</h1>
         <button className="my-10s border border-green-700 h-300">Take the Test</button>
       </div>
     </>
