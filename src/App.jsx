@@ -1,5 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+import NavBar from './Components/NavBar/NavBar'
+import Search from './Components/Search/Search'
+import Test from './Components/Test/TakeTest'
+import Value from './Components/Value/Value'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -7,14 +11,12 @@ function App() {
 
   return (
     <>
-      <div className='bg-sky-600'>
-        <img
-        src="https://i.pinimg.com/originals/3a/f3/11/3af311dec9d503e97946cc02f890f15f.png"
-        alt="16"
-        className="h-100"
-        />
-        <h1 className="text-3xl text-blue-300">MindMatch</h1>
-        <button className="my-10s border border-green-700 h-300">Take the Test</button>
+      <div className='w-[85%] m-auto bg-white'>
+        <NavBar/>
+        <Search/>
+        <Test/>
+        <Value/>
+        <Footer/>
       </div>
     </>
   )
