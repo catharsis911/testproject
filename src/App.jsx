@@ -2,7 +2,6 @@ import { useState } from 'react'
 import NavBar from './Components/NavBar/NavBar'
 import Search from './Components/Search/Search'
 import Test from './Components/Test/TakeTest'
-import Value from './Components/Value/Value'
 import Footer from './Components/Footer/Footer'
 
 
@@ -15,7 +14,6 @@ function App() {
         <NavBar/>
         <Search/>
         <Test/>
-        <Value/>
         <Footer/>
       </div>
     </>

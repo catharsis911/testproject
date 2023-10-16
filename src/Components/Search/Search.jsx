@@ -9,7 +9,7 @@ const Search = () => {
         <div className='search grid gap-10 bg-greyIsh rounded-[10px] p-[3rem]'>
           <form action="">
             
-            <div className='firstDiv flex bg-white items-center justify-between rounded-[10px] gap-[10px] p-5 shadow-xl shadow-grayIsh'>
+            <div className='firstDiv flex bg-white items-center justify-between rounded-[100px] gap-[10px] p-5 shadow-xl shadow-grayIsh'>
               
               <div className='flex gap-2 items-center'>
                 <BiSearchAlt className='text-[25px] icon'/>
