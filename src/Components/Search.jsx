@@ -29,7 +29,7 @@ const Search = () => {
                 <FiDelete className='text-[25px] text-[#a5a6a6] hover:text-textColor icon'/>
               </div>
 
-              <button className="bg-greenColor h-full p-5 rounded-[10px] px-10 text-white cursor-pointer hover:bg-green-300">Search</button>
+              <button className="bg-greenColor h-full p-5 rounded-[100px] px-10 text-white cursor-pointer hover:bg-green-300">Search</button>
             </div>
           </form> 
 
