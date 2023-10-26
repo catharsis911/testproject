@@ -29,22 +29,22 @@ function App() {
           />
 
           <Route
-            path=""
+            path="/types"
             element={ <Types/> }
           />
 
           <Route
-            path=""
+            path="/about"
             element={ <About/> }
           />
 
           <Route
-            path=""
+            path="/contact"
             element={ <Contact/> }
           />
 
           <Route
-            path=""
+            path="/blog"
             element={ <Blog/> }
           />
           
@@ -54,9 +54,10 @@ function App() {
           />
 
           <Route
-            path=""
+            path="/register"
             element={ <Register/> }
           />
+
         </Routes>
         <Search/>
         <Footer/>

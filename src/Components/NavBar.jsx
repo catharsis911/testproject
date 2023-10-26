@@ -13,11 +13,11 @@ const NavBar = () => {
           <div className='menu flex gap-8'>
             <Link to="/"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Home</li></Link>
             <Link to="/types"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Types</li></Link>
-            <li className='menuList text-[#6f6f6f] hover:text-greenColor'>About</li>
-            <li className='menuList text-[#6f6f6f] hover:text-greenColor'>Contact</li>
-            <li className='menuList text-[#6f6f6f] hover:text-greenColor'>Blog</li>
-            <li className='menuList text-[#6f6f6f] hover:text-greenColor'>Login</li>
-            <li className='menuList text-[#6f6f6f] hover:text-greenColor'>Register</li>
+            <Link to="/about"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>About</li></Link>
+            <Link to="/contact"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Contact</li></Link>
+            <Link to="/blog"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Blog</li></Link>
+            <Link to="/login"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Login</li></Link>
+            <Link to="/register"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Register</li></Link>
             
           </div>{/*
           <Routes>
