@@ -11,6 +11,7 @@ import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Login from './Pages/Login'
 import Register from './Pages/Register'
+import Blog from './Pages/Blog'
 
 // import Home from './Components/Pages/Home'
 
@@ -23,40 +24,19 @@ function App() {
       <div className='w-[85%] m-auto bg-white'>
         <NavBar/>
         <Routes>
-          <Route
-            path="/"
-            element={ <Home/> }
-          />
-
-          <Route
-            path="/types"
-            element={ <Types/> }
-          />
-
-          <Route
-            path="/about"
-            element={ <About/> }
-          />
-
-          <Route
-            path="/contact"
-            element={ <Contact/> }
-          />
-
-          <Route
-            path="/blog"
-            element={ <Blog/> }
-          />
+          <Route path="/" element={ <Home/> }/>
+            
+          <Route path="/types" element={ <Types/> }/>
           
-          <Route
-            path="/login"
-            element={ <Login/> }
-          />
+          <Route path="/about" element={ <About/> }/>
+          
+          <Route path="/contact" element={ <Contact/> }/>
+        
+          <Route path="/blog" element={ <Blog/> }/>
+          
+          <Route path="/login" element={ <Login/> }/>
 
-          <Route
-            path="/register"
-            element={ <Register/> }
-          />
+          <Route path="/register" element={ <Register/> }/>
 
         </Routes>
         <Search/>

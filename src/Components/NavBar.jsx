@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
 
-// import Home from './Components/Pages/Home'
-
 const NavBar = () => {
     return (
         <div className='flex justify-between items-center p-[3rem]'>
@@ -19,32 +17,7 @@ const NavBar = () => {
             <Link to="/login"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Login</li></Link>
             <Link to="/register"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Register</li></Link>
             
-          </div>{/*
-          <Routes>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/types">
-              <Types />
-            </Route>
-            <Route path="/:user">
-              <User />
-            </Route>
-            <Route>
-              <NoMatch />
-            </Route> 
-          </Routes>
-           <Router>
-            <Switch>
-              <Route exact path="/" component={Home}></Route>
-              <Route exact path="/" component={types}></Route>
-              <Route exact path="/" component={Jobs}></Route>
-              <Route exact path="/" component={Jobs}></Route>
-              <Route exact path="/" component={Jobs}></Route>
-              <Route exact path="/" component={Jobs}></Route>
-              <Route exact path="/" component={Jobs}></Route>
-            </Switch>
-          </Router> */}
+          </div>
         </div>
     )
 }
