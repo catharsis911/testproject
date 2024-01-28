@@ -6,34 +6,34 @@ import {HiOutlineLocationMarker} from 'react-icons/hi'
 
 const Search = () => {
     return (
-        <div className='search grid gap-10 bg-greyIsh rounded-[10px] p-[3rem]'>
-          <form action="">
+        <div className='search block md:gap-10 gap-5 bg-greyIsh rounded-[10px] md:p-[3rem] p-[1.3rem]'>
+          <form action="" className='mb-10'>
             
-            <div className='firstDiv flex bg-white items-center justify-between rounded-[100px] gap-[10px] p-5 shadow-xl shadow-grayIsh'>
+            <div className='firstDiv mx-auto flex flex-wrap lg:max-w-[1030px] max-w-[330px] bg-white items-center lg:justify-between justify-center lg:rounded-[100px] rounded-[30px] md:gap-[10px] gap-[7px] md:p-5 p-3 shadow-xl shadow-grayIsh'>
               
-              <div className='flex gap-2 items-center'>
-                <BiSearchAlt className='text-[25px] icon'/>
+              <div className='flex md:gap-2 gap-1 items-center'>
+                <BiSearchAlt className='xl:text-[25px] text-[20px] icon'/>
                 <input type='text' className="bg-transparent text-green-600 focus:outline-none w-[100%]" placeholder="Search Type Here"/>
                 <FiDelete className='text-[25px] text-[#a5a6a6] hover:text-textColor icon'/>
               </div>
 
               <div className='flex gap-2 items-center'>
-                <BsHouseDoor className='text-[25px] icon'/>
+                <BsHouseDoor className='xl:text-[25px] text-[20px] icon'/>
                 <input type='text' className="bg-transparent text-green-600 focus:outline-none w-[100%]" placeholder="Search By Company"/>
                 <FiDelete className='text-[25px] text-[#a5a6a6] hover:text-textColor icon'/>
               </div>
 
               <div className='flex gap-2 items-center'>
-                <HiOutlineLocationMarker className='text-[25px] icon'/>
+                <HiOutlineLocationMarker className='xl:text-[25px] text-[20px] icon'/>
                 <input type='text' className="bg-transparent text-green-600 focus:outline-none w-[100%]" placeholder="Search By location"/>
                 <FiDelete className='text-[25px] text-[#a5a6a6] hover:text-textColor icon'/>
               </div>
 
-              <button className="bg-greenColor h-full p-5 rounded-[100px] px-10 text-white cursor-pointer hover:bg-green-300">Search</button>
+              <button className="bg-greenColor h-full xl:p-5 p-3 xl:rounded-[100px] rounded-[60px] text-white cursor-pointer hover:bg-green-300">Search</button>
             </div>
           </form> 
 
-          <div className="secDiv flex items-center gap-10 justify-center">
+          <div className="secDiv flex flex-wrap items-center xl:gap-10 gap-3 justify-center">
             <div className="singlSearch flex items-center gap-2">
               <label htmlFor="relevance" className="text-[#808080] font-semibold">Sort by:</label>
             

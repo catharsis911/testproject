@@ -5,10 +5,10 @@ const NavBar = () => {
     return (
         <div className='flex justify-between items-center p-[3rem]'>
           <div className='logoDiv'>
-            <h1 className='logo text-[25px] text-greenColor'><strong>Mind</strong>Match</h1>
+            <h1 className='logo lg:text-[25px] text-[20px] text-greenColor'><strong>Mind</strong>Match</h1>
           </div>
 
-          <div className='menu flex gap-8'>
+          <div className='menu flex lg:gap-8 gap-2'>
             <Link to="/"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Home</li></Link>
             <Link to="/types"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>Types</li></Link>
             <Link to="/about"><li className='menuList text-[#6f6f6f] hover:text-greenColor'>About</li></Link>
