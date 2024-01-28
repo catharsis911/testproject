@@ -7,13 +7,13 @@ import {HiOutlineLocationMarker} from 'react-icons/hi'
 const Search = () => {
     return (
         <div className='search block md:gap-10 gap-5 bg-greyIsh rounded-[10px] md:p-[3rem] p-[1.3rem]'>
-          <form action="" className='mb-10'>
+          <form action="" className='mb-10 mx-auto'>
             
-            <div className='firstDiv mx-auto flex flex-wrap lg:max-w-[1030px] max-w-[330px] bg-white items-center lg:justify-between justify-center lg:rounded-[100px] rounded-[30px] md:gap-[10px] gap-[7px] md:p-5 p-3 shadow-xl shadow-grayIsh'>
+            <div className='firstDiv mx-auto flex flex-wrap lg:max-w-[1030px] max-w-[330px] bg-white items-center xl:justify-between justify-center lg:rounded-[100px] rounded-[30px] md:gap-[10px] gap-[7px] md:p-5 p-3 shadow-xl shadow-grayIsh'>
               
               <div className='flex md:gap-2 gap-1 items-center'>
                 <BiSearchAlt className='xl:text-[25px] text-[20px] icon'/>
-                <input type='text' className="bg-transparent text-green-600 focus:outline-none w-[100%]" placeholder="Search Type Here"/>
+                <input type='text' className="bg-transparent text-green-600 focus:outline-none w-100%]" placeholder="Search Type Here"/>
                 <FiDelete className='text-[25px] text-[#a5a6a6] hover:text-textColor icon'/>
               </div>
 
@@ -29,7 +29,7 @@ const Search = () => {
                 <FiDelete className='text-[25px] text-[#a5a6a6] hover:text-textColor icon'/>
               </div>
 
-              <button className="bg-greenColor h-full xl:p-5 p-3 xl:rounded-[100px] rounded-[60px] text-white cursor-pointer hover:bg-green-300">Search</button>
+              <button className="bg-greenColor h-full xl:p-5 p-3 xl:rounded-[100px] rounded-[60px] text-white cursor-pointer hover:bg-green-300 lg:w-[15%] w-[100%]">Search</button>
             </div>
           </form> 
 

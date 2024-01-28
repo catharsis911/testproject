@@ -6,7 +6,7 @@ const Test = () => {
           <div className="h-[70px]">
           <h1 className="lg:text-[30px] text-[23px] text-center text-textColor font-semibold">MBTI (Myers-Briggs Type Indicator)</h1>
           </div>
-            <p className="lg:text-[25px] text-[20px] text-[#a5a6a6] border-t-4 p-4">
+            <p className="lg:text-[25px] text-[19px] text-[#a5a6a6] border-t-4 p-4">
           It is used by organizations to help individuals develop and build self-awareness and to help teams work better together.
             </p>
            
