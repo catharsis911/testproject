@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
     return (
-  <div className="footer bg-greenColor p-[5rem] mb-4 rounded-[10px] grid grid-cols-5 gap-[8] m-auto items-center justify-center">
+  <div className="footer bg-greenColor xl:p-[5rem] p-[0.6rem] mb-4 rounded-[10px] grid grid-cols-5 xl:gap-[8] gap-[6] m-auto items-center justify-center">
       <div>
         <div>
-           <h1 className="logo text-[25px] text-white pb-[1.5rem]">
+           <h1 className="logo xl:text-[25px] text-[18px] text-white pb-[1.5rem]">
             <strong>Mind</strong>Match
            </h1>
         </div>
@@ -14,11 +14,11 @@ const Footer = () => {
         </p>
       </div>  
       <div className="grid">
-        <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
+        <span className="divTitle xl:text-[18px] text-[14px] font-semibold pb-[1.5rem] text-white">
           Company
         </span>
         
-        <div className="grid gap-3">
+        <div className="grid xl:gap-3 gap-1">
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">About Us</p>
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Features</p>
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">News</p>
@@ -28,11 +28,11 @@ const Footer = () => {
       </div>
 
       <div className="grid">
-        <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
+        <span className="divTitle xl:text-[18px] text-[14px] font-semibold md:pb-[1.5rem] pb-[1.rem] text-white">
           Resources
         </span>
         
-        <div className="grid gap-3">
+        <div className="grid xl:gap-3 gap-1">
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Account</p>
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Support Center</p>
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Feedback</p>
@@ -42,11 +42,11 @@ const Footer = () => {
       </div>
 
       <div className="grid">
-        <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
+        <span className="divTitle xl:text-[18px] text-[14px] font-semibold pb-[1.5rem] text-white">
           Support
         </span>
         
-        <div className="grid gap-3">
+        <div className="grid xl:gap-3 gap-1">
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Events</p>
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Promo</p>
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Req Demo</p>
@@ -56,11 +56,11 @@ const Footer = () => {
       </div>
 
       <div className="grid">
-        <span className="divTitle text-[18px] font-semibold pb-[1.5rem] text-white">
+        <span className="divTitle xl:text-[18px] text-[14px] font-semibold md:pb-[1.5rem] pb-[0.7rem] text-white">
           Contact Info
         </span>
         
-        <div className="grid gap-3">
+        <div className="grid xl:gap-3 gap-1">
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Events</p>
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Promo</p>
          <p className="text-white opacity-[.8] hover:opacity-95 cursor-pointer">Req Demo</p>
